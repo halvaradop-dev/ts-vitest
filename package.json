@@ -1,5 +1,5 @@
 {
-  "name": "ts-vitest",
+  "name": "@halvaradop/ts-vitest",
   "version": "1.0.0",
   "description": "A TypeScript project setup with Vitest for testing and Turborepo for monorepo management.",
   "private": true,
