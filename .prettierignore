@@ -1,0 +1,8 @@
+# build
+.turbo
+.cache
+node_modules
+dist
+
+# files
+pnpm-lock.yaml

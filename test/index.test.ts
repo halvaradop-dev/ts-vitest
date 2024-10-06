@@ -10,7 +10,6 @@ describe("Testing suite", () => {
     })
 })
 
-
 describe("Testing expected types", () => {
     test("Object", () => {
         expect({ name: "David" }).toEqual({ name: "David" })

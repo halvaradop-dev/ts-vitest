@@ -2,7 +2,6 @@ import { test, describe, expect } from "vitest"
 import { scheduler } from "timers/promises"
 import { throwError } from "../src"
 
-
 describe("Asyncronymous functions", () => {
     test.concurrent("Async 1", async ({ expect }) => {
         const message = await scheduler.wait(5000).then(() => "1200 miliseconds after")
@@ -18,7 +17,6 @@ describe("Asyncronymous functions", () => {
         expect(message).toBe("1000 miliseconds after")
     })
 })
-
 
 describe("Reject async", () => {
     test("Async", () => {

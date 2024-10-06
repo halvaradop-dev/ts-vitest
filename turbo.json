@@ -1,20 +1,20 @@
 {
-    "$schema": "https://turbo.build/schema.json",
-    "tasks": {
-        "build": {
-            "cache": true,
-            "dependsOn": ["^build"],
-            "inputs": ["src"],
-            "outputs": ["dist"]
-        },
-        "dev": {
-            "cache": false,
-            "inputs": ["src"],
-            "outputs": ["dist"]
-        },
-        "test": {
-            "cache": false,
-            "inputs": ["test"]
-        }
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["src"],
+      "outputs": ["dist"]
+    },
+    "dev": {
+      "cache": false,
+      "inputs": ["src"],
+      "outputs": ["dist"]
+    },
+    "test": {
+      "cache": false,
+      "inputs": ["test"]
     }
+  }
 }
